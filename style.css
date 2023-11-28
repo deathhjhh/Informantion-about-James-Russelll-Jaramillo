@@ -1,0 +1,227 @@
+/* General Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 21px; /* Set a base font size for better responsiveness */
+}
+
+/* Container Styles */
+.container {
+    background-image: url('BG.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2.5vw 0 2.5vw; /* Use relative units for padding */
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-inline: 1rem;
+    font-size: 1.70vw; /* Use a relative unit for better responsiveness */
+    transition: opacity 0.3s ease; /* Add transition for opacity */
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+/* Right Navigation Styles */
+.right-nav img {
+    height: 3vw; /* Use a relative unit for better responsiveness */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Add transition for transform */
+}
+
+.right-nav img:hover {
+    transform: scale(1.1); /* Increase scale on hover */
+}
+
+/* Mid Info Styles */
+.mid-info {
+    color: rgb(255, 255, 255);
+    padding: 15vw 3.5vw 0 3.5vw; /* Use relative units for padding */
+}
+
+/* Name Styles */
+.name {
+    font-size: 5vw; /* Use a relative unit for better responsiveness */
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+/* Name Span Styles */
+.name span {
+    font-weight: 900;
+    letter-spacing: 0.2vw; /* Use a relative unit for better responsiveness */
+}
+
+/* Status Styles */
+.status {
+    letter-spacing: 0.25vw; /* Use a relative unit for better responsiveness */
+}
+
+/* Section Description Styles */
+.sec-des {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f9fafb;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding: 5vw 5.5vw; /* Adjusted left and right padding */
+    justify-content: space-between;
+}
+
+/* Section Description Left Styles */
+.sec-des-left {
+    width: 100%; /* Full width on smaller screens */
+    max-width: 50ch; /* Added max-width for responsiveness */
+}
+
+/* Section Description Paragraph Styles */
+.sec-des p {
+    line-height: 2;
+}
+
+/* Section Description Heading Styles */
+h3 {
+    font-size: 3vw; /* Use a relative unit for better responsiveness */
+    color: rgb(210, 15, 15);
+}
+
+/* Section Description Image Styles */
+.sec-des img {
+    width: 40vw; /* Use a relative unit for better responsiveness */
+    max-width: 30rem; /* Added max-width for responsiveness */
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transition: transform 0.3s ease; /* Add transition for transform */
+}
+
+.sec-des img:hover {
+    transform: scale(1.1); /* Increase scale on hover */
+}
+
+/* Experience Styles */
+.exp {
+    padding: 5vw 5vw; /* Use relative units for padding */
+    background: #0c0909;
+    color: rgb(235, 235, 235);
+}
+
+/* Experience Heading Styles */
+.exp h3 {
+    background: #0c0909;
+    color: rgb(220, 20, 20);
+}
+
+/* Experience Image Styles */
+.exp img {
+    width: 40vw; /* Use a relative unit for better responsiveness */
+    max-width: 30rem; /* Added max-width for responsiveness */
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Add transition for transform */
+}
+
+.exp img:hover {
+    transform: scale(1.1); /* Increase scale on hover */
+}
+
+/* Experience Left Styles */
+.exp-left {
+    order: 1;
+}
+
+/* Contact Styles */
+.contact {
+    background: #0c0909;
+    padding: 12vw 2.5vw; /* Use relative units for padding */
+    color: rgb(194, 34, 34);
+}
+
+/* Contact Paragraph Styles */
+.contact > p {
+    color: rgb(255, 255, 255);
+}
+
+/* Heading 2 Styles */
+h2 {
+    font-size: 10vw; /* Use a relative unit for better responsiveness */
+}
+
+/* Free Styles */
+.free {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* Contact Text 1 Styles */
+.contact-text1 {
+    font-size: 3vw; /* Use a relative unit for better responsiveness */
+    margin-bottom: 0.5vw; /* Use a relative unit for better responsiveness */
+}
+
+/* Email Styles */
+.email {
+    font-weight: 600;
+    font-size: 1.25vw; /* Use a relative unit for better responsiveness */
+}
+
+/* Horizontal Rule Styles */
+hr {
+    width: 95vw; /* Use a relative unit for better responsiveness */
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 2.5vw; /* Use relative units for padding */
+    color: rgb(194, 34, 34);
+}
+
+/* Footer Anchor Styles */
+footer a {
+    text-decoration: none;
+    padding-inline: 1.25vw; /* Use a relative unit for better responsiveness */
+    color: rgb(194, 34, 34);
+    transition: opacity 0.3s ease; /* Add transition for opacity */
+    font-size: 1.70vw; /* Use a relative unit for better responsiveness */
+}
+
+footer a:hover {
+    opacity: 0.7;
+}
+
+/* Footer Paragraph Styles */
+footer p {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Adjust base font size for smaller screens */
